@@ -74,7 +74,6 @@
       e.target.classList.remove('playing');
 
     }
-
     const key = document.querySelectorAll('.key');
     key.forEach(key => addEventListener('transitionend', removeTransition))
     window.addEventListener('keydown', playSound)
